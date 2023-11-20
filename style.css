@@ -1,0 +1,36 @@
+/**  Reset  **/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/**  Common  **/
+
+body{
+    background-color: #f5f5f1;
+}
+
+/**  Main  **/
+
+main .main-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .main-head h3{
+    margin: 60px 0px 40px;
+}
+
+main .main-head p{
+    width: 500px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0px 500px 0px;
+    line-height: 30px;
+
+}
+
+main .team-cards-grid .team-card
